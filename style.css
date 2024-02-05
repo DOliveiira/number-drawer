@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Libre Baskerville', serif;
+    background-color: #545454;
+}
+
+.container-logo{
+    display: flex;
+    justify-content: center;
+}
+
+.title-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h1{
+    font-size: 40px;
+    color: #fff;
+    font-family: 'Protest Riot', sans-serif;
+}
+
+.continer-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 342px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #fff;
+    font-size: 19px;
+    margin: 34px 0 34px;
+    padding: 10px;
+    box-shadow: 0px 0px 40px 0px rgba(233, 235, 223, 0.35);
+}
+
+.container-button{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border-radius: 30px;
+    width: 300px;
+    height: 60px;
+    background-color: #71f803;
+    font-size: 19px;
+    margin-top: 60px;
+    box-shadow: 0px 0px 40px 0px rgba(233, 235, 223, 0.35);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.6;
+}
+
